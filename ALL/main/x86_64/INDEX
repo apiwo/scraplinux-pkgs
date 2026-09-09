@@ -1,6 +1,6 @@
 # ScrapLinux repository index
 # format	2
-# generated	2026-09-06 19:16:56
+# generated	2026-09-09 17:08:34
 # fields	name version release arch dlsize isize sha256 deps desc
 tzdata	2026b	1	x86_64	56984	1449984	eb49a54f31cca02658e6de4fbf7b8994869b152ff3515aacbf700036c3469829	-	Time zone database
 s6	2.13.2.0	1	x86_64	205828	1835008	e6537655b62b6d22ad0c9084da5f78b2e0a1043bd802f4019f5c5f53b84c3c2b	glibc skalibs execline	skarnet supervision suite
@@ -92,7 +92,7 @@ iana-etc	20260601	1	x86_64	14772	45056	65024c95a9d65cff1d5330b4acd454ec0a727b1ac
 gperf	3.1	1	x86_64	63084	208896	c0f844ecc7a11c96c3ae6ef8bfbca72d843285a085673cb11553c8dd05b9cf9a	glibc	Perfect hash function generator
 eudev	3.2.14	3	x86_64	1251596	10285056	a5fd5d994fc64d42a98fe4a2ab30e23a30b25067b69d867c501f3d6969025297	glibc libcap	Standalone udev, for desktops that need it
 zsh	5.9.2	1	x86_64	2132432	11673600	8fdbafd4accb097c6cf22dacbf361205feff2bf0ecb02486747d627dccec4e31	glibc netbsd-curses	The Z shell, Arctic's login shell
-scraplinux-base	1.4.35	1	x86_64	62768	458752	f0bb3e07831d20d647f558585dec6ad30ac52832310de938aacbffb75ec18097	busybox wpa_supplicant	ScrapLinux base configuration, init scripts and branding
+scraplinux-base	1.5.0	1	x86_64	1071484	2093056	ef11f974631efab17132b4afc7d65a4ad45841f20ef1e1eb3944091e455478fd	busybox toybox zsh doas scraps	ScrapLinux base configuration, init scripts and branding
 samurai	1.2	1	x86_64	26816	73728	96265b2d082058e8c7b8c12cc7474d322e942bab32109c507ec7b6f3dcce330f	glibc	A ninja-compatible build tool in C
 limine	12.5.2	1	x86_64	630060	3387392	b990d21031f006a62c5c744381c2e2411fc161a46225cbc2e97a1c108fa24278	glibc	The Arctic bootloader, BIOS and UEFI
 libtool	2.6.2	1	x86_64	324704	2535424	9dc92d8330d32c22714c46699794772f4fc0e99f73fac3f3fe8ab30af36273ca	glibc m4	Generates portable shared-library build rules, needed by autoreconf
