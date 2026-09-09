@@ -1,6 +1,6 @@
 # ScrapLinux repository index
 # format	2
-# generated	2026-09-06 19:17:10
+# generated	2026-09-09 16:52:26
 # fields	name version release arch dlsize isize sha256 deps desc
 libvorbis	1.3.7	1	x86_64	197724	1064960	38b5340d1b7af667d820bc214756eefcb29bdde8e0ff9839e2e38744350b9063	libogg	Vorbis audio codec
 zsh-syntax-highlighting	0.8.0	1	x86_64	38048	229376	e19c1b902bc9dd98615d6fb9f318d272e2d0c79eff8096cebdd3ef9639b96ad7	zsh	Syntax highlighting for zsh
@@ -13,7 +13,7 @@ dmenu	5.4	1	x86_64	15976	73728	c2765145fe6bb5632e4d7b6c5f97a8b5e52f8c5a21cc8aaf7
 libxshmfence	1.3.3	1	x86_64	4436	40960	a026acc073eda95d4d481a32bd82a9e7872b6572722e66d844fab25d693deeee	glibc	Shared-memory fences
 swaybg	1.2.2	1	x86_64	9924	36864	bfabde6188931b660c2fb15644c7b276bb85b2f2abc88944eaff104c2028fe00	wayland cairo gdk-pixbuf	Wallpaper tool for Wayland
 lxqt-policykit	2.4.0	1	x86_64	22352	237568	16888689414826c3036ba6e734d7d2a37e837b3096394b34108f044d4759eb97	glibc liblxqt qt6-base polkit-qt-1 polkit	LXQt polkit authentication agent
-mesa	26.0.2	2	x86_64	18686204	113270784	4a460db021a2989c641b0fb610a6498115b89b607b38d9d870ab4d930d9be241	glibc libdrm wayland libx11 zlib zstd expat llvm libclc spirv-llvm-translator	Open source OpenGL and Vulkan implementation
+mesa	26.0.2	3	x86_64	18737808	113270784	8968f828b29b8a36890d668db00e4cf5f4baf9cd1a7eb2a8c6bcf8dc4b0379e9	glibc libglvnd libdrm wayland libx11 zlib zstd expat llvm libclc spirv-llvm-translator	Open source OpenGL and Vulkan implementation
 vulkan-loader	1.4.330	1	x86_64	134356	598016	3a10f2d9797584a835727e09267b873be9e68c1ed27f88bfb8420f6b042783fe	glibc wayland libx11	Vulkan ICD loader
 libxaw	1.0.16	2	x86_64	448092	3403776	7879f7a477997597146a874e2d3bf8507d8e57e70963733bfcffa32134b3465f	glibc libx11 libxext libxmu libxt	X Athena widget set
 xfce4-panel	4.20.8	1	x86_64	525164	5025792	69149b387a93f2c711568aed6e8edf73dc4849fa35263fe917eedc2cbadb73c9	gtk3 libxfce4ui garcon exo	The Xfce panel
@@ -160,12 +160,12 @@ swaylock	1.8.4	1	x86_64	25380	106496	1ed739ef5175b420e757478d58353c01a44dea23be7
 pcmanfm-qt	2.4.0	1	x86_64	497596	3215360	194ad7cb2fe912fb0948639af4bf4b1ba2c9c0f208585a8d70c2bdee15a624b0	glibc liblxqt qt6-base libfm-qt	The LXQt file manager
 libxfce4ui	4.20.2	1	x86_64	172824	1253376	8fda50873c8add6bac4f90a0118b384eba831cb887f2bbab9673208c7a7fe76a	gtk3 libxfce4util xfconf	Xfce widget library
 xkeyboard-config	2.47	1	x86_64	810252	11628544	13ba704308cb62b9fe710288ff0451b85092e3864cf73795253615582d86822e	-	Keyboard layout database
-dwl	0.8	1	x86_64	25396	94208	12578e54b32e5862611b090b7720a2a5b63c8e8d34129adff8e0cb731dad29cf	glibc wayland wlroots libinput libxkbcommon	Dynamic window manager for Wayland, in the spirit of dwm
+dwl	0.8	2	x86_64	25488	94208	034644d6dc8d9c71da7f537f65ee5327f4c4a3f053147475a2a051182acf77cf	wayland-base glibc wayland wlroots libinput libxkbcommon	Dynamic window manager for Wayland, in the spirit of dwm
 imlib2	1.12.5	1	x86_64	589088	2031616	5f434424c7f42f6887f141215bfae4f9f9653b19943a71cc2e0199d327374535	libx11 libpng libjpeg-turbo freetype	Image loading and rendering library
 polkit-qt-1	0.201.1	1	x86_64	68228	434176	0f4578c95caf528627963ff5e2d845c08b49835efe0e7d9e9e498fcd1e8e3e58	qt6-base polkit extra-cmake-modules	Qt6 bindings for polkit, needed by liblxqt's backlight backend
 libxres	1.2.3	1	x86_64	8448	73728	80b5319237225e6bb09928239ee5aab6431a808e61d3f480f73092e1e9fc85e5	libx11 libxext	X Resource extension library
 lxqt-powermanagement	2.4.0	1	x86_64	151464	1028096	dc1afc1b9c417e9aedbe52659f0a89c803ce0a3002318a1c70fcfc71326105b1	glibc liblxqt qt6-base solid kidletime	LXQt power management daemon and applet
-dwm	6.6	2	x86_64	22284	73728	6f44eed9cee116513b8c658338ae404a3960ec4202bd1f7117a44383b694ea4f	glibc libx11 libxft libxinerama freetype fontconfig harfbuzz	Dynamic window manager for X
+dwm	6.6	3	x86_64	22360	73728	657281e52f4ad97982f5d46c105d584ed13904c31411cc3eef47262aa7b89a87	x11-base glibc libx11 libxft libxinerama freetype fontconfig harfbuzz	Dynamic window manager for X
 lxqt-runner	2.4.0	1	x86_64	215960	659456	c986c67e69858f5c319cbdf5f23c011c03fbb196c9386cc894f4b390396ba5b5	glibc liblxqt qt6-base muparser	LXQt application launcher (Alt+F2)
 libxcursor	1.2.3	1	x86_64	35964	417792	deaf3b152f591f36897dff3b98bd4646169f77485755661f4e325b5ecd7797f1	glibc libx11 libxrender libxfixes	X cursor management
 libraw	0.21.4	1	x86_64	568296	6475776	58ac4e3d205c2f5576258c0e49de2ae8668fea567fe2a042c4a0878c7e2dd2ca	glibc libjpeg-turbo lcms2	Raw image decoder
@@ -194,6 +194,7 @@ screengrab	3.2.0	1	x86_64	179052	1024000	f14d4930280d32843a7840388181d8e085718bd
 libxext	1.3.7	1	x86_64	76484	733184	e8e1579a613cf0924b8952d5feb8dd91c62834c33071b8296f99642f1e4db93f	glibc libx11	X miscellaneous extensions
 imath	3.2.2	1	x86_64	110716	995328	caf9ecb499a3c46723d3da5cfd56bd29ee140dbacc30bd9b307eeffb7e9279f1	glibc	Maths library for graphics
 libxpm	3.5.17	1	x86_64	65284	495616	e49e879c43551da48834d0ec5dc7a78a5cf15b83a27b3a566e8f51d07f8c20ea	glibc libx11 libxext libxt	X11 pixmap library
+wayland-base	1.0.0	1	x86_64	748	512	aeda946ec3f08226df62a30ff16f0ce3318ab7379aeaea4b33426f93f990da2d	wayland wayland-protocols wlroots libglvnd mesa libinput libxkbcommon xkeyboard-config pixman seatd libdrm libdisplay-info libxcb xcb-util-wm xcb-util-renderutil xcb-util-keysyms dbus ttf-dejavu ttf-jetbrains-mono-nerd	Everything needed for a working Wayland session - wlroots, EGL via glvnd, seatd, input, keymaps and fonts
 qt6-tools	6.10.1	1	x86_64	5062712	21012480	ed45f9704ad6c352ff07eb83657de1accae49852748c9bdf1826b3848efe3ed8	qt6-base qt6-declarative	Qt 6 developer tools: lupdate, lrelease, Qt6LinguistTools cmake support
 libxscrnsaver	1.2.4	1	x86_64	11492	106496	ea7caec6f9f1d8612c324225dfc521b976a107cef098a390d6367bd12f007d9a	glibc libx11 libxext	X screen saver extension library
 font-misc-misc	1.1.3	1	x86_64	1375776	21118976	dc7e0b595ed49ebd6f7d2b79325712d7e9128600550c98f2c9bde01c9824d0bb	glibc font-util encodings	Core bitmap fonts (fixed, 6x13, ...) - the traditional default X font set
@@ -211,6 +212,7 @@ procps-ng	4.0.7	1	x86_64	612656	3371008	ff4f1c84b0fbe290ebb7e13193f831a17da249ee
 nushell	0.109.0	1	x86_64	8916180	36945920	67e7ce36e6f1ba145121b381296b653025de5379b1d656befeb8434483a41ba5	glibc libressl	A shell built around structured data
 fribidi	1.0.16	1	x86_64	42204	421888	94d16de3e7803c60b2698305e6392fb33fe8c464edc50c9e35894ba469fbe704	glibc	Bidirectional text algorithm
 pixman	0.46.4	1	x86_64	268140	823296	02c58ed32fb84a5a881152dcd252c587a31d5ad326e5ba1756bce172c5f5fc36	glibc	Low-level pixel manipulation
+x11-base	1.0.0	2	x86_64	912	512	4faa937190db509267cfb424e028fb3aa52ad406132e8b213c3c10a03807ed66	xorg-server xorg-xinit xauth libx11 libxext libxcb xcb-proto libxau libxdmcp xtrans libxrandr libxi libxcursor libxfixes libxrender libxinerama libxcomposite libxdamage libxtst libxv libxxf86vm libxkbcommon xkeyboard-config libpciaccess mesa libglvnd mtdev libevdev xf86-input-libinput xf86-video-amdgpu xf86-video-nouveau pixman font-util encodings font-misc-misc xkbcomp setxkbmap xrandr xset dbus ttf-dejavu ttf-jetbrains-mono-nerd	Everything needed for a working X11 session - server, startx, drivers, keymaps, GL and fonts
 duktape	2.7.0	1	x86_64	176048	557056	27403ac49faf3eb7e7f26ce41f8d297b395df6f5e5d482b5c3635e64f6cdaf1e	glibc	Embeddable JavaScript engine
 openbox	3.6.1	2	x86_64	284928	1495040	d0a135b4d8dd419621cf83c58988e8716698e70ea50395c6acb8dd7949700005	glibc libx11 libxml2 pango glib libxrandr libxinerama libxcursor imlib2 startup-notification	A highly configurable stacking window manager
 xcb-util-image	0.4.1	1	x86_64	16276	86016	bce573a2a277c1df5590f511e2a19551892b2096ed103ddb97e83418b13e4032	glibc libxcb xcb-util	Image handling for XCB, needed by lxqt-panel's tray plugin
