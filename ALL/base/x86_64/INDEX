@@ -1,6 +1,6 @@
 # ScrapLinux repository index
 # format	2
-# generated	2026-09-09 16:52:26
+# generated	2026-09-09 16:54:47
 # fields	name version release arch dlsize isize sha256 deps desc
 libvorbis	1.3.7	1	x86_64	197724	1064960	38b5340d1b7af667d820bc214756eefcb29bdde8e0ff9839e2e38744350b9063	libogg	Vorbis audio codec
 zsh-syntax-highlighting	0.8.0	1	x86_64	38048	229376	e19c1b902bc9dd98615d6fb9f318d272e2d0c79eff8096cebdd3ef9639b96ad7	zsh	Syntax highlighting for zsh
@@ -194,7 +194,7 @@ screengrab	3.2.0	1	x86_64	179052	1024000	f14d4930280d32843a7840388181d8e085718bd
 libxext	1.3.7	1	x86_64	76484	733184	e8e1579a613cf0924b8952d5feb8dd91c62834c33071b8296f99642f1e4db93f	glibc libx11	X miscellaneous extensions
 imath	3.2.2	1	x86_64	110716	995328	caf9ecb499a3c46723d3da5cfd56bd29ee140dbacc30bd9b307eeffb7e9279f1	glibc	Maths library for graphics
 libxpm	3.5.17	1	x86_64	65284	495616	e49e879c43551da48834d0ec5dc7a78a5cf15b83a27b3a566e8f51d07f8c20ea	glibc libx11 libxext libxt	X11 pixmap library
-wayland-base	1.0.0	1	x86_64	748	512	aeda946ec3f08226df62a30ff16f0ce3318ab7379aeaea4b33426f93f990da2d	wayland wayland-protocols wlroots libglvnd mesa libinput libxkbcommon xkeyboard-config pixman seatd libdrm libdisplay-info libxcb xcb-util-wm xcb-util-renderutil xcb-util-keysyms dbus ttf-dejavu ttf-jetbrains-mono-nerd	Everything needed for a working Wayland session - wlroots, EGL via glvnd, seatd, input, keymaps and fonts
+wayland-base	1.0.0	2	x86_64	736	512	13976995bd77b26e9ed91f90f7e1ef78a20f3f6d84dd536f5a2e77c93afb6f67	wayland wayland-protocols wlroots libglvnd mesa libinput libxkbcommon xkeyboard-config pixman seatd libdrm libdisplay-info libxcb xcb-util-wm xcb-util-renderutil xcb-util-keysyms dbus ttf-jetbrains-mono-nerd	Everything needed for a working Wayland session - wlroots, EGL via glvnd, seatd, input, keymaps and fonts
 qt6-tools	6.10.1	1	x86_64	5062712	21012480	ed45f9704ad6c352ff07eb83657de1accae49852748c9bdf1826b3848efe3ed8	qt6-base qt6-declarative	Qt 6 developer tools: lupdate, lrelease, Qt6LinguistTools cmake support
 libxscrnsaver	1.2.4	1	x86_64	11492	106496	ea7caec6f9f1d8612c324225dfc521b976a107cef098a390d6367bd12f007d9a	glibc libx11 libxext	X screen saver extension library
 font-misc-misc	1.1.3	1	x86_64	1375776	21118976	dc7e0b595ed49ebd6f7d2b79325712d7e9128600550c98f2c9bde01c9824d0bb	glibc font-util encodings	Core bitmap fonts (fixed, 6x13, ...) - the traditional default X font set
@@ -212,7 +212,7 @@ procps-ng	4.0.7	1	x86_64	612656	3371008	ff4f1c84b0fbe290ebb7e13193f831a17da249ee
 nushell	0.109.0	1	x86_64	8916180	36945920	67e7ce36e6f1ba145121b381296b653025de5379b1d656befeb8434483a41ba5	glibc libressl	A shell built around structured data
 fribidi	1.0.16	1	x86_64	42204	421888	94d16de3e7803c60b2698305e6392fb33fe8c464edc50c9e35894ba469fbe704	glibc	Bidirectional text algorithm
 pixman	0.46.4	1	x86_64	268140	823296	02c58ed32fb84a5a881152dcd252c587a31d5ad326e5ba1756bce172c5f5fc36	glibc	Low-level pixel manipulation
-x11-base	1.0.0	2	x86_64	912	512	4faa937190db509267cfb424e028fb3aa52ad406132e8b213c3c10a03807ed66	xorg-server xorg-xinit xauth libx11 libxext libxcb xcb-proto libxau libxdmcp xtrans libxrandr libxi libxcursor libxfixes libxrender libxinerama libxcomposite libxdamage libxtst libxv libxxf86vm libxkbcommon xkeyboard-config libpciaccess mesa libglvnd mtdev libevdev xf86-input-libinput xf86-video-amdgpu xf86-video-nouveau pixman font-util encodings font-misc-misc xkbcomp setxkbmap xrandr xset dbus ttf-dejavu ttf-jetbrains-mono-nerd	Everything needed for a working X11 session - server, startx, drivers, keymaps, GL and fonts
+x11-base	1.0.0	3	x86_64	904	512	7a31c5b3b126091cd40477d73e05126ac8dbc36374e2eda0f3db5dbbfcbfabe3	xorg-server xorg-xinit xauth libx11 libxext libxcb xcb-proto libxau libxdmcp xtrans libxrandr libxi libxcursor libxfixes libxrender libxinerama libxcomposite libxdamage libxtst libxv libxxf86vm libxkbcommon xkeyboard-config libpciaccess mesa libglvnd mtdev libevdev xf86-input-libinput xf86-video-amdgpu xf86-video-nouveau pixman font-util encodings font-misc-misc xkbcomp setxkbmap xrandr xset dbus ttf-jetbrains-mono-nerd	Everything needed for a working X11 session - server, startx, drivers, keymaps, GL and fonts
 duktape	2.7.0	1	x86_64	176048	557056	27403ac49faf3eb7e7f26ce41f8d297b395df6f5e5d482b5c3635e64f6cdaf1e	glibc	Embeddable JavaScript engine
 openbox	3.6.1	2	x86_64	284928	1495040	d0a135b4d8dd419621cf83c58988e8716698e70ea50395c6acb8dd7949700005	glibc libx11 libxml2 pango glib libxrandr libxinerama libxcursor imlib2 startup-notification	A highly configurable stacking window manager
 xcb-util-image	0.4.1	1	x86_64	16276	86016	bce573a2a277c1df5590f511e2a19551892b2096ed103ddb97e83418b13e4032	glibc libxcb xcb-util	Image handling for XCB, needed by lxqt-panel's tray plugin
