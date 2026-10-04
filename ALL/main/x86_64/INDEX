@@ -1,6 +1,6 @@
 # ScrapLinux repository index
 # format	2
-# generated	2026-09-09 17:15:26
+# generated	2026-10-04 17:32:42
 # fields	name version release arch dlsize isize sha256 deps desc
 tzdata	2026b	1	x86_64	56984	1449984	eb49a54f31cca02658e6de4fbf7b8994869b152ff3515aacbf700036c3469829	-	Time zone database
 s6	2.13.2.0	1	x86_64	205828	1835008	e6537655b62b6d22ad0c9084da5f78b2e0a1043bd802f4019f5c5f53b84c3c2b	glibc skalibs execline	skarnet supervision suite
@@ -92,7 +92,7 @@ iana-etc	20260601	1	x86_64	14772	45056	65024c95a9d65cff1d5330b4acd454ec0a727b1ac
 gperf	3.1	1	x86_64	63084	208896	c0f844ecc7a11c96c3ae6ef8bfbca72d843285a085673cb11553c8dd05b9cf9a	glibc	Perfect hash function generator
 eudev	3.2.14	3	x86_64	1251596	10285056	a5fd5d994fc64d42a98fe4a2ab30e23a30b25067b69d867c501f3d6969025297	glibc libcap	Standalone udev, for desktops that need it
 zsh	5.9.2	1	x86_64	2132432	11673600	8fdbafd4accb097c6cf22dacbf361205feff2bf0ecb02486747d627dccec4e31	glibc netbsd-curses	The Z shell, Arctic's login shell
-scraplinux-base	1.5.0	2	x86_64	1071472	2093056	90c69f8fdc7623fe91a9b6d18570940013cc5a22b2ac3627174ad204df433f74	busybox toybox zsh doas scraps	ScrapLinux base configuration, init scripts and branding
+scraplinux-base	1.5.0	3	x86_64	1068064	2031616	76a454e410161bd2c7145ebf76f632ba4b840f815824a3cf734df8ad3604a61f	busybox toybox zsh doas scraps	ScrapLinux base configuration, init scripts and branding
 samurai	1.2	1	x86_64	26816	73728	96265b2d082058e8c7b8c12cc7474d322e942bab32109c507ec7b6f3dcce330f	glibc	A ninja-compatible build tool in C
 limine	12.5.2	1	x86_64	630060	3387392	b990d21031f006a62c5c744381c2e2411fc161a46225cbc2e97a1c108fa24278	glibc	The Arctic bootloader, BIOS and UEFI
 libtool	2.6.2	1	x86_64	324704	2535424	9dc92d8330d32c22714c46699794772f4fc0e99f73fac3f3fe8ab30af36273ca	glibc m4	Generates portable shared-library build rules, needed by autoreconf
@@ -100,7 +100,7 @@ json-glib	1.10.8	1	x86_64	125976	819200	3e0dd9edeec9bc802aa6c4c45a70108886afdcc4
 grub	2.14	1	x86_64	2462536	28741632	455f3e60d89d488a5ea2f83fb3c38d0c95d2579024a187e48a89ffff3af2a09a	glibc	GRUB2 bootloader (BIOS only)
 brotli	1.1.0	1	x86_64	337628	1077248	1e243fa78d3747a95837cc1a7fa1405c2efa057e0a631ddd38c3b3e796de2434	glibc	Brotli compression
 util-linux-libs	2.42.1	3	x86_64	743296	5763072	4a3324c34ad24c2624ad88ec881eb4af32cba9b0fa54422f5dffc78f5eb88bc7	glibc	libblkid, libmount and libuuid only
-scraps	1.4.35	1	x86_64	56208	241664	8acf7efd566aedd1acd378c64ddceb0bfb1fecd45e83b78b4f48a885ae1d0b01	busybox	ScrapLinux Package Manager
+scraps	1.5.0	1	x86_64	60452	262144	2cdd01269c15ebc1a43cf104cecedc60f3f34d6a917c823e410536b13587a940	busybox onetrueawk xz libarchive curl	ScrapLinux Package Manager
 pcre2	10.46	1	x86_64	823160	6774784	aa94d04f8e1676daee6adbeb2e8768af8019f08699449b9d9cf4f3b09d627e52	glibc zlib bzip2	Perl compatible regular expressions
 libunistring	1.3	1	x86_64	604944	5890048	a76b3d8d6ac6013b35ee0366f14d7505292a6d2c28d8898ea8f923c034b12414	glibc	Unicode string library
 libepoxy	1.5.10	1	x86_64	283040	2830336	851ba60ad995d632590afa328b1011a606670546e1bf250db018e646b9e5f95e	glibc libx11	GL function pointer dispatch, needed by Xorg's glamor 2D acceleration
