@@ -1,6 +1,6 @@
 # ScrapLinux repository index
 # format	2
-# generated	2026-10-04 17:32:42
+# generated	2026-10-04 17:38:36
 # fields	name version release arch dlsize isize sha256 deps desc
 tzdata	2026b	1	x86_64	56984	1449984	eb49a54f31cca02658e6de4fbf7b8994869b152ff3515aacbf700036c3469829	-	Time zone database
 s6	2.13.2.0	1	x86_64	205828	1835008	e6537655b62b6d22ad0c9084da5f78b2e0a1043bd802f4019f5c5f53b84c3c2b	glibc skalibs execline	skarnet supervision suite
@@ -100,7 +100,7 @@ json-glib	1.10.8	1	x86_64	125976	819200	3e0dd9edeec9bc802aa6c4c45a70108886afdcc4
 grub	2.14	1	x86_64	2462536	28741632	455f3e60d89d488a5ea2f83fb3c38d0c95d2579024a187e48a89ffff3af2a09a	glibc	GRUB2 bootloader (BIOS only)
 brotli	1.1.0	1	x86_64	337628	1077248	1e243fa78d3747a95837cc1a7fa1405c2efa057e0a631ddd38c3b3e796de2434	glibc	Brotli compression
 util-linux-libs	2.42.1	3	x86_64	743296	5763072	4a3324c34ad24c2624ad88ec881eb4af32cba9b0fa54422f5dffc78f5eb88bc7	glibc	libblkid, libmount and libuuid only
-scraps	1.5.0	1	x86_64	60452	262144	2cdd01269c15ebc1a43cf104cecedc60f3f34d6a917c823e410536b13587a940	busybox onetrueawk xz libarchive curl	ScrapLinux Package Manager
+scraps	1.5.1	1	x86_64	60436	262144	3d56e850fc011e5c3274ed6bc45c6e207309d23550b6d313f17cc0d6c01f666e	busybox onetrueawk xz libarchive curl	ScrapLinux Package Manager
 pcre2	10.46	1	x86_64	823160	6774784	aa94d04f8e1676daee6adbeb2e8768af8019f08699449b9d9cf4f3b09d627e52	glibc zlib bzip2	Perl compatible regular expressions
 libunistring	1.3	1	x86_64	604944	5890048	a76b3d8d6ac6013b35ee0366f14d7505292a6d2c28d8898ea8f923c034b12414	glibc	Unicode string library
 libepoxy	1.5.10	1	x86_64	283040	2830336	851ba60ad995d632590afa328b1011a606670546e1bf250db018e646b9e5f95e	glibc libx11	GL function pointer dispatch, needed by Xorg's glamor 2D acceleration
