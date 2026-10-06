@@ -1,6 +1,6 @@
 # ScrapLinux repository index
 # format	2
-# generated	2026-10-06 16:58:50
+# generated	2026-10-06 17:38:13
 # fields	name version release arch dlsize isize sha256 deps desc
 tzdata	2026b	1	x86_64	56984	1449984	eb49a54f31cca02658e6de4fbf7b8994869b152ff3515aacbf700036c3469829	-	Time zone database
 nghttp2	1.68.0	3	x86_64	160880	978944	701f3286efa81090241844335dd666949817d97d39c7f94ec589e5001206e6d4	glibc	HTTP/2 library
@@ -46,7 +46,7 @@ busybox	1.38.0	2	x86_64	571532	2351104	1acb21327b401001905039deb0e364b5d2d8a341f
 openssl	3.6.2	1	x86_64	4611064	25387008	a24eed6f8b9e88ae18d9758442bfe3e3dcbb7dfc6a47343a19a2f06668cd4efe	glibc	TLS toolkit, for software that insists on it
 mandoc	1.14.6	1	x86_64	302772	1269760	9d6f49dfb9dab4c7076b70077019ab4bcbaa47299a00bdd076e31a6e1f3bb0b0	glibc zlib	Manual reader, replacing man-db and groff
 libndp	1.9	1	x86_64	22576	135168	decb02e0c75a2d331421badfddc09122a19fbcba2c7508cd9cb868fb92679c21	glibc	IPv6 Neighbor Discovery Protocol library
-libglvnd	1.7.0	2	x86_64	336636	4100096	30922a5967fc394bcd433f2fceea3cb5259cd57f5bcdf1c3a1fdc1ffab7931a7	glibc libx11 libxext	GL vendor dispatch, so mesa and NVIDIA can both provide GL
+libglvnd	1.7.0	3	x86_64	334412	4108288	addc41d36a7a495b1e56b18d67cd53b01ee6d600c178d6589eca1edacef9a706	glibc libx11 libxext	GL vendor dispatch, so mesa and NVIDIA can both provide GL
 libedit	20260512	1	x86_64	98448	503808	0fca74b30827dbc3b95dcfa46a8a2edc1b0b1946f35c6c637f4f82af04123016	glibc netbsd-curses	BSD line editing, replacing readline
 kmod	34.2	1	x86_64	99912	479232	3ef08dfccb48f95fbde2e3595b17f02dc2e4fa3ef8650f537b93582028bc7ed7	glibc zlib xz zstd	Kernel module tools
 gmp-alt	6.3.0	1	x86_64	313828	1777664	fc7bc2f84ef3a9770a155c129c3ab60d698d9a8fde66088a6d19ca4e0e9ffbd7	glibc	Arbitrary precision arithmetic, for nftables

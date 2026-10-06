@@ -1,6 +1,6 @@
 # ScrapLinux repository index
 # format	2
-# generated	2026-10-06 16:48:56
+# generated	2026-10-06 17:38:19
 # fields	name version release arch dlsize isize sha256 deps desc
 libvorbis	1.3.7	1	x86_64	197724	1064960	38b5340d1b7af667d820bc214756eefcb29bdde8e0ff9839e2e38744350b9063	libogg	Vorbis audio codec
 zsh-syntax-highlighting	0.8.0	1	x86_64	38048	229376	e19c1b902bc9dd98615d6fb9f318d272e2d0c79eff8096cebdd3ef9639b96ad7	zsh	Syntax highlighting for zsh
@@ -59,7 +59,7 @@ elogind	257.16	1	x86_64	1432112	5799936	754f22e459aa07a227f14e4682d325f97beec7d5
 xorgproto	2025.1	1	x86_64	224196	1888256	5cf01b2711ebb09ffd605ecc93597ac5ff79b5ac672f124f9cc56a114f3d8a99	-	X11 protocol headers
 lcms2	2.17	1	x86_64	174440	593920	756a07f74a30d58a2e104affe9bd79c20f52894dcc7638acc06328ffd825a8f4	glibc libjpeg-turbo libtiff	Colour management engine
 libxv	1.0.13	1	x86_64	20080	208896	322db5c5a3c53aa04337a9a528f61515e4b9dc6c029c97816104c75044a5983b	glibc libx11 libxext	X Video extension library
-xorg-xwayland	24.1.9	1	x86_64	881608	2453504	5d8c0be25c3ca1683fd41c322259b13af56bb8199f51921d35792c0388fd2ea0	glibc mesa wayland libdrm pixman libxkbcommon	X server running on Wayland
+xorg-xwayland	24.1.9	2	x86_64	872228	2420736	6380fa55c01d4ca9738558d2e993e1c54f381a8d3ae9d72e35280d073b7117d3	glibc pixman libbsd libmd libxfont2 libxau libxdmcp wayland libxcvt libxshmfence libdrm libepoxy mesa libglvnd libtirpc xkbcomp xkeyboard-config	X server running on Wayland
 vulkan-headers	1.4.330	1	x86_64	1651320	33796096	e5714774a8d674420e38b0d367f93c28d908722ecd378fa738cc0e0d6eea1019	-	Vulkan header files
 xcb-util-cursor	0.1.5	1	x86_64	11816	69632	fcd618812fee3785d65507c5209dfa89f561d3d9f4cb955ba1ad2c9790749747	glibc libxcb xcb-util-renderutil xcb-util-image	Cursor loading for XCB, needed by Qt6's XCB platform plugin
 gsl	2.8	1	x86_64	1581804	12206080	043c391412a87f725f6aea4b879737c27d44a236208498088572f641f47ccc13	glibc	GNU scientific library, for inkscape
