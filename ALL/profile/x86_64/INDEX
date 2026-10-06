@@ -1,6 +1,6 @@
 # ScrapLinux repository index
 # format	2
-# generated	2026-09-06 19:17:22
+# generated	2026-10-06 16:49:11
 # fields	name version release arch dlsize isize sha256 deps desc
 scraplinux-xfce	1.0.0	2	x86_64	1896	20480	6d47f841d901170787b3a8e10c05e381b95f1a1103fd8f8d4d8e1a11abf2c403	xfce4-meta foot xfce4-notifyd xfce4-screenshooter thunar xorg-server xorg-xinit xauth xterm sddm pipewire wireplumber ttf-jetbrains-mono noto-fonts noto-fonts-emoji arctic-plasma-theme	Xfce with the Arctic theme, foot and a neutral panel layout
 tinywl-dms	1.0.0	1	x86_64	1116	12288	52e7ff9a411057660d2f8e2a39826acda594d023388718c49290d978c0b8d4f0	tinywl foot mako wl-clipboard cliphist ttf-jetbrains-mono ttf-nerd-fonts-symbols noto-fonts adwaita-icon-theme	tinywl with a starting terminal, notifications and clipboard history
@@ -14,4 +14,3 @@ apiwow-lxqt	1.1.0	1	x86_64	1208	12288	5a9983d5938961e1104843d339ed06276bf1ea45c1
 sound-setup	1.0.0	1	x86_64	1028	4096	3d02f010a4cc62595ae8c9fda06744aaae0d8c2b224dd32465144e6d318558ee	pipewire wireplumber pipewire-pulse alsa-lib alsa-utils	PipeWire audio, wired up and started
 scraplinux-sound	1.0.0	1	x86_64	616	4096	4f77b70b8f9aad7a1b1ded5fd9c6c50a6db1bd977eae2a87c03369b53e35609d	pipewire wireplumber pipewire-pulse alsa-lib alsa-utils	PipeWire, WirePlumber and alsamixer, configured and enabled
 labwc-dms	1.0.0	1	x86_64	2108	40960	3b047d4be57d5ca59c178e12af0af8234b79b6f74d29f8c203d8393f7d1c116e	labwc foot fuzzel waybar mako swaylock swaybg wl-clipboard cliphist grim slurp xorg-xwayland pipewire wireplumber ttf-jetbrains-mono ttf-nerd-fonts-symbols noto-fonts noto-fonts-emoji adwaita-icon-theme	labwc with a bar, launcher, notifications and clipboard history - the Arctic neutral rice
-sound-setup-openrc	1.0.0	1	x86_64	1072	4096	f71a73665540cee6addc8cbd551017ce4425597e5247435b48266edb809485df	pipewire wireplumber pipewire-pulse alsa-lib alsa-utils openrc	PipeWire audio, wired up and started (OpenRC)

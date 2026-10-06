@@ -1,6 +1,6 @@
 # ScrapLinux repository index
 # format	2
-# generated	2026-09-06 19:17:04
+# generated	2026-10-06 16:49:05
 # fields	name version release arch dlsize isize sha256 deps desc
 tealdeer	1.8.0	1	x86_64	1280700	3207168	9509ee7d6b6fd5c2d23bf7643a5199a41b9a5301dd1295156e762709c56d84dd	glibc libressl	Fast tldr client, for when man is too much
 lua	5.5.0	1	x86_64	201696	1163264	9496c378f603afd137a9ba17c34ded3540d7128e93b4727cbbbe08796266931f	glibc libedit	The Lua interpreter
@@ -55,7 +55,7 @@ eza	0.23.5	2	x86_64	928260	2617344	af582e1e595c63d819258a34231cbb4a34cc450863712
 difftastic	0.65.0	1	x86_64	6594360	112205824	ebb402b7227e12cb123b3ed8bd9cc980666e039aa4a2ab20d2468c0fa161f1bc	glibc	A diff that understands syntax
 zellij	0.44.0	1	x86_64	9727940	49606656	c9f2294fb12c89b3e865cd696dc582d58f83044fb933a70d370778248c1fdb13	glibc	Terminal workspace multiplexer
 ttf-firacode-nerd	3.4.0	1	x86_64	5040816	47816704	910caa9de434393402505f8112e359782c9bf4c5d9c23d02ba3d43f8f1fb2baa	-	Fira Code patched with Nerd Font glyphs
-st	0.9.3	1	x86_64	40660	155648	9ff7c6b1f47ba4c7b3042335dfc63e9a886353fe149c7a432cdc3f1ceb420e6b	glibc libx11 libxft freetype fontconfig	The suckless simple terminal
+st	0.9.3	2	x86_64	41044	143360	e99d9a2396129bdf76b01fe5541c9286f0b9bf4da9f78a0fcd0bfe25f1228f16	glibc libx11 libxft freetype fontconfig	The suckless simple terminal
 slang	2.3.3	1	x86_64	803040	4235264	958d8b34df0663eb6624af896c42807105b6330a6887f4cf7f280166500f9dbc	glibc pcre2 zlib	Screen and interpreter library
 p7zip	17.06	1	x86_64	408	0	57640d6d7ecf5d8840a644c7c45413e214309b14492d4dee05f838d32abf0168	glibc	7-Zip for POSIX
 fuse3	3.18.1	1	x86_64	135404	593920	9ae1c33af15e5beb5540d34a718dda544b4e87f8a15f34b3d8888aa0b3cf6345	glibc	Filesystem in userspace
